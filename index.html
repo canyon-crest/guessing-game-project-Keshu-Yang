@@ -6,7 +6,10 @@
   </head>
   <body>
     <p id="date"></p>
-
+    <p>Hi, What's your name?</p>
+    <label for="myInput">Name:</label>
+    <input id="myInput" placeholder="Enter your name" />
+    <p id="hello"></p>
     <h3>Level</h3>
     <input type="radio" name="level" id="e" value="3" checked><label for="e">Easy</label>
     <input type="radio" name="level" id="m" value="10"><label for="m">Medium</label>
@@ -15,9 +18,11 @@
     <button id="playBtn">Play</button>
 
     <h3 id="msg">Select a Level</h3>
+    <h3 id="temp"> </h3>
     <input type="text" id="guess" disabled>
     <button id="guessBtn" disabled>Guess</button>
     <button id="giveUpBtn" disabled>Give Up</button>
+    <h3 id="good"></h3>
 
     <h3>Stats</h3>
     <p id="wins">Total wins: 0</p>
